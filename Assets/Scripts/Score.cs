@@ -10,8 +10,8 @@ public class Score : MonoBehaviour
     private void Start() =>    
        _currentScore.SubscribeToText(_scoreText);
 
-    public void ApplyScore(IntReactiveProperty scoreValue)
+    public void ApplyScore(int scoreValue)
     {
-        _currentScore.Value += scoreValue.Value;
+        _currentScore.Value += scoreValue;
     }
 }
