@@ -1,2 +1,2 @@
 # PlatypusGames
-тестовое задания для PlatypusGames
+Tестовое задания для PlatypusGames
