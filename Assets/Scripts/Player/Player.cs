@@ -17,8 +17,8 @@ public class Player : MonoBehaviour
     private Dictionary<Type, IPlayerBehavior> _behaviorsMap;
     private IPlayerBehavior _behaviorCurrent;
 
-    public float MoveVerticalSpeed { get => _moveVerticalSpeed; set => _moveVerticalSpeed = value; }
-    public float MoveHorizontalSpeed { get => _moveHorizontalSpeed; set => _moveHorizontalSpeed = value; }
+    public float MoveVerticalSpeed => _moveVerticalSpeed;
+    public float MoveHorizontalSpeed => _moveHorizontalSpeed;
 
     public void Awake()
     {
